@@ -1,0 +1,7 @@
+## Title: Send Messages To Trade Chat
+## Version: 1.0.0
+## Interface: 100005
+## Dependencies: Coroutine
+## SavedVariablesPerCharacter: SendMessagesToTradeChatTradeChannelID
+
+SendMessagesToTradeChat.lua

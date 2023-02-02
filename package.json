@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@sanjo/add-on-builder": "./add-on-builder/"
+  }
+}

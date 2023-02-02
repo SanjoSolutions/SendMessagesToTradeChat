@@ -1,0 +1,7 @@
+<Bindings>
+  <Binding name="SEND_MESSAGES_TO_TRADE_CHAT_BUTTON" runOnUp="true" category="ADDONS">
+    if keystate == 'down' then
+      SendMessagesToTradeChat.confirm()
+    end
+  </Binding>
+</Bindings>
