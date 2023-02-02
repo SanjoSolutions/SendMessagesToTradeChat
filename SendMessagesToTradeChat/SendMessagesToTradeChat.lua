@@ -168,3 +168,14 @@ function _.showPostButton()
   postButton:Show()
   coroutine.yield()
 end
+
+local chatEditInsertLink = _G.ChatEdit_InsertLink
+_G.ChatEdit_InsertLink = function (text)
+  if text and SendMessagesToTraceChatEditBox:HasFocus() then
+    SendMessagesToTraceChatEditBox:Insert(text)
+    SendMessagesToTraceChatEditBox:SetFocus()
+    return true
+  else
+    return chatEditInsertLink(text)
+  end
+end
